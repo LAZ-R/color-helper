@@ -1,5 +1,5 @@
 export const APP_NAME = "Color Helper";
-export const APP_VERSION = '0.0.0.3';
+export const APP_VERSION = '0.0.0.4';
 export const APP_LOCAL_STORAGE_ID = `color-helper-2026-0001`;
 
 /* 
@@ -9,6 +9,7 @@ export const APP_LOCAL_STORAGE_ID = `color-helper-2026-0001`;
 
 # CHANGELOG ###############################################
 
+v 0.0.0.4 - fix manifest start_url + drawers
 v 0.0.0.3 - fix utils name
 v 0.0.0.2 - Update to 2026 version : using spa-pwa template, added palettes, wcag contrast ratio and css filter
 v 0.0.0.1 - init

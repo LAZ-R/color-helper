@@ -3,7 +3,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
 
-Version `0.0.0.3`
+Version `0.0.0.4`
 
 **[GitHub Pages deployed version](https://laz-r.github.io/color-helper/)**
 
@@ -40,6 +40,9 @@ It is designed for both developers and designers who need fast, reliable color i
 This is mostly a *proof of concept* so the code here is awfull, I know.
 
 ## Changelog
+
+### v 0.0.0.4
+- fix manifest start_url
 
 ### v 0.0.0.3 
 - fix utils name

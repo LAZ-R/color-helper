@@ -1,4 +1,4 @@
-const version = '0.0.0.3';
+const version = '0.0.0.4';
 const CACHE_NAME = `color-helper-2026-${version}`;
 
 const APP_SHELL = [
