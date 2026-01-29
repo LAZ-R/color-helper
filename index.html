@@ -1,39 +1,36 @@
 <!doctype html>
-<html lang="fr" id="html" class="lzr">
+<html lang="fr" id="html">
   <head>
     <meta charset="utf-8">
-    <title id="title">Color Helper</title>
+    <title id="title"></title>
     <link rel="manifest" href="./manifest.json">
     <link rel="stylesheet" href="./css/style.css">
-    <link id="favicon" rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="./app-maskable-icons/app_icon_180.png">
-    <meta name="description" content="Assistant colorimétrique">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./medias/app-maskable-icons/app_icon_152.png">
+    <meta name="description" content="Pour comprendre les associations de couleurs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
     <meta name="theme-color" content="#000000"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="" id="appleTitle">
-    <meta name="msapplication-TileImage" content="./app-maskable-icons/app_icon_144.png">
+    <meta name="msapplication-TileImage" content="./medias/app-maskable-icons/app_icon_144.png">
     <meta name="msapplication-TileColor" content="#000000">
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   </head>
 
-  <body id="body" class="lzr-body">
-    <header id="header" class="lzr-header">
-      <div id="headerIconContainer" class="header-icon-container"></div>
-      <span id="headerTitle" class="header-title"></span>
-      <nav id="headerMenu" class="header-menu" class="lzr-header-menu"></nav>
-      <nav class="header-settings-nav">
-        <a id="headerSettingsNav" class="lzr-button lzr-flat lzr-square header-settings-button"></a>
-      </nav>
-    </header>
-    <main id="main" class="lzr-main" tabindex="-1" aria-live="polite"></main>
-    <footer id="footer" class="lzr-footer"></footer>
-    <nav id="tabBar" class="lzr-tab-bar"></nav>
-    <!-- <nav id="sideBar" class="lzr-side-bar"></nav> -->
-    <div id="toastContainer"></div>
-    <div id="pwaInstallContainer" class="pwa-install-container hidden"></div>
+  <body id="body">
+
+    <header id="header" class="header"></header>
+
+    <div id="main" class="main">
+      <!-- Your main content is here-->
+    </div>
+
+    <footer id="footer" class="footer"></footer>
+
+    <script src="main.js"></script>
+    <script type="module" src="./js/app.js"></script>
+    
   </body>
-
-  <script type="module" src="./js/app.js"></script>
-
 </html>
